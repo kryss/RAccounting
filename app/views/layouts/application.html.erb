@@ -7,6 +7,17 @@
   <%= csrf_meta_tag %>
 </head>
 <body>
+	
+<div id="user_nav">
+  <% if company_signed_in? %>
+    Signed in as <%= current_company.email %>. Not you?
+    <%= link_to "Sign out", destroy_company_session_path %>
+  <% else %>
+    <%= link_to "Sign up", new_company_registration_path %> or <%= link_to "sign in", new_company_session_path %>
+  <% end %>
+</div>
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
 
 <%= yield %>
 
