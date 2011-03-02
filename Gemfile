@@ -14,8 +14,8 @@ gem 'devise'
 
 
 group :development do
-   gem 'annotate-models'
-   gem 'ruby-debug19'
+	gem 'annotate-models'
+  gem 'ruby-debug19'
 end
 # Use unicorn as the web server
 # gem 'unicorn'

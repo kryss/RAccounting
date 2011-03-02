@@ -1,0 +1,30 @@
+# == Schema Information
+# Schema version: 20110302005250
+#
+# Table name: orders
+#
+#  id           :integer         not null, primary key
+#  linenum      :integer
+#  account_id   :integer
+#  product_id   :integer
+#  qty          :integer
+#  selled_price :decimal(, )     default(-1.0)
+#  created_at   :datetime
+#  updated_at   :datetime
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  linenum: 1
+  account_id: 1
+  product_id: 1
+  qty: 1
+  selled_price: 9.99
+
+two:
+  linenum: 1
+  account_id: 1
+  product_id: 1
+  qty: 1
+  selled_price: 9.99

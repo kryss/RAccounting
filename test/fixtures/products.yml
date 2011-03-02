@@ -1,0 +1,28 @@
+# == Schema Information
+# Schema version: 20110302005250
+#
+# Table name: products
+#
+#  id         :integer         not null, primary key
+#  ref        :string(255)
+#  desc       :string(255)
+#  buy_price  :decimal(, )
+#  sell_price :decimal(, )
+#  company_id :integer
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  ref: MyString
+  desc: MyString
+  buy_price: 9.99
+  sell_price: 9.99
+
+two:
+  ref: MyString
+  desc: MyString
+  buy_price: 9.99
+  sell_price: 9.99
